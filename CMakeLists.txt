@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
     image_transport
     camera_info_manager
     realsense_gazebo_plugin
+    realsense2_description
 )
 find_package(gazebo REQUIRED)
 
@@ -32,6 +33,7 @@ catkin_package(
         image_transport
         camera_info_manager
         realsense_gazebo_plugin
+        realsense2_description
 )
 
 ###########
